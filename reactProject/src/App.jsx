@@ -9,11 +9,12 @@ import List from "./components/list.jsx";
 import MyComponent from "./components/myComponent.jsx";
 import OnChange from "./components/onchange.jsx";
 import ColorPicker from "./components/ColorPicker.jsx";
+import UpdateObjects from "./components/UpdateObjects.jsx";
 function App() {
 
   return(
     <>
-    <ColorPicker/>
+    <UpdateObjects/>
     </>
   );
 }
