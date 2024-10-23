@@ -10,11 +10,12 @@ import MyComponent from "./components/myComponent.jsx";
 import OnChange from "./components/onchange.jsx";
 import ColorPicker from "./components/ColorPicker.jsx";
 import UpdateObjects from "./components/UpdateObjects.jsx";
+import UpdateArray from "./components/updateArrays.jsx";
 function App() {
 
   return(
     <>
-    <UpdateObjects/>
+    <UpdateArray/>
     </>
   );
 }
