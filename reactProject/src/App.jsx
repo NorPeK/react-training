@@ -7,11 +7,12 @@ import Student from "./components/Student.jsx";
 import UserGreeting from "./components/UserGreeting.jsx";
 import List from "./components/list.jsx";
 import MyComponent from "./components/myComponent.jsx";
+import OnChange from "./components/onchange.jsx";
 function App() {
 
   return(
     <>
-    <MyComponent/>
+    <OnChange/>
     </>
   );
 }
