@@ -5,11 +5,12 @@ import Card from "./components/Card.jsx";
 import Button from "./components/button.jsx";
 import Student from "./components/Student.jsx";
 import UserGreeting from "./components/UserGreeting.jsx";
+import List from "./components/list.jsx";
 function App() {
 
   return(
     <>
-    <UserGreeting isLoggedIn = {true} username = "NorPeK"/>
+    <List/>
     </>
   );
 }
