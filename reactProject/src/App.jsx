@@ -8,11 +8,12 @@ import UserGreeting from "./components/UserGreeting.jsx";
 import List from "./components/list.jsx";
 import MyComponent from "./components/myComponent.jsx";
 import OnChange from "./components/onchange.jsx";
+import ColorPicker from "./components/ColorPicker.jsx";
 function App() {
 
   return(
     <>
-    <OnChange/>
+    <ColorPicker/>
     </>
   );
 }
