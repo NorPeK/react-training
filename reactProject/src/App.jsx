@@ -13,12 +13,13 @@ import UpdateObjects from "./components/UpdateObjects.jsx";
 import UpdateArray from "./components/updateArrays.jsx";
 import TryUseEffect from "./components/UseEffect.jsx";
 import ComponentA from "./components/ComponentA.jsx";
+import TryUseRef from "./components/UseRef.jsx";
 
 function App() {
 
   return(
     <>
-    <ComponentA/>
+    <TryUseRef/>
     </>
   );
 }
