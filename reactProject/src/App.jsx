@@ -11,11 +11,13 @@ import OnChange from "./components/onchange.jsx";
 import ColorPicker from "./components/ColorPicker.jsx";
 import UpdateObjects from "./components/UpdateObjects.jsx";
 import UpdateArray from "./components/updateArrays.jsx";
+import TryUseEffect from "./components/UseEffect.jsx";
+
 function App() {
 
   return(
     <>
-    <UpdateArray/>
+    <TryUseEffect/>
     </>
   );
 }
